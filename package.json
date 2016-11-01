@@ -1,0 +1,32 @@
+{
+  "name": "postcss-ampify",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that removes CSS properties not allowed by AMP HTML specification.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "amp"
+  ],
+  "author": "Damian Piątkowski <damian.dem@gmail.com>",
+  "license": "MIT",
+  "repository": "dpiatkowski/postcss-ampify",
+  "bugs": {
+    "url": "https://github.com/dpiatkowski/postcss-ampify/issues"
+  },
+  "homepage": "https://github.com/dpiatkowski/postcss-ampify",
+  "dependencies": {
+    "postcss": "^5.2.5"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.9.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
