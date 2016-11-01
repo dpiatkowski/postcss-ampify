@@ -1,8 +1,9 @@
-# PostCSS Ampify [![Build Status][ci-img]][ci]
+# PostCSS Ampify CSS [![Build Status](https://travis-ci.org/dpiatkowski/postcss-ampify.svg?branch=master)](https://travis-ci.org/dpiatkowski/postcss-ampify)
 
-[PostCSS] plugin that removes CSS properties not allowed by [AMP HTML specification](https://www.ampproject.org/docs/guides/responsive/style_pages).
+[PostCSS](https://github.com/postcss/postcss) plugin that removes CSS properties and values not allowed by [AMP HTML specification](https://www.ampproject.org/docs/guides/responsive/style_pages).
 
-TODO: @keyframes
+TODO: 
+1. @keyframes support
 
 ## Usage
 
@@ -10,4 +11,4 @@ TODO: @keyframes
 postcss([ require('postcss-ampify') ])
 ```
 
-See [PostCSS] docs for examples for your environment.
+See [PostCSS](https://github.com/postcss/postcss) docs for examples for your environment.
